@@ -1,0 +1,24 @@
+header {
+  padding: 15px 0;
+  background: #fff;
+  z-index: 9999;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4); }
+  header .menu {
+    float: right;
+    list-style: none; }
+    header .menu a {
+      text-decoration: none; }
+  @media (min-width: 768px) {
+    header {
+      border-radius: 0; }
+      header .hidebutton {
+        display: none; } }
+  header .logo {
+    position: fixed;
+    right: 0;
+    left: 0;
+    float: left; }
+  header .butstyle {
+    float: right; }
+
+/*# sourceMappingURL=Header.css.map */
