@@ -1,0 +1,36 @@
+
+header {
+    padding: 15px 0;
+    background: #fff;
+    z-index: 9999;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+
+    .menu{
+        float:right;
+        list-style: none;
+       a{
+           text-decoration: none;
+       }
+    }
+
+
+@media (min-width: 768px)
+{
+    border-radius: 0;
+    
+    .hidebutton{
+    display:none;
+    }
+
+}
+.logo {
+    position: fixed;
+    right: 0;
+    left: 0;
+    float: left;
+   }
+   .butstyle{
+       float: right;
+   }
+
+    }
