@@ -1,43 +1,42 @@
-body{
-        font-family: 'Lato', arial, sans-serif;
-}
-
-.section-1{
-background-color: #56bc94;
-float:left;
-width: 100%;
-margin:0px;
-color: white;
-
-.text{
-    padding:100px;
-    
-.promo-strong{
-    padding: 15px;
-    font-size: 30px;
-    margin-bottom: 35px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-}
-ul.sec1-ul {
-    display: inline;
-    li{
-        margin: 15px;
-    font-weight: 300;
-    padding-left: 30px;
-    background: url(../images/bullet.png) no-repeat left center;
+    body{
+            font-family: 'Lato', arial, sans-serif;
     }
-}
-}
-img.iphone-secton1 {
-    float: right;
-    margin-right: 150px;
-        margin-bottom: 100px;
 
-}
-}
-@media (min-width: 768px){
-.promo .overview 
-{
-    text-align: center;
-}
-}
+    [class*="col-"] {padding:100px;
+    text-align:center;}
+    .section-1{
+    background-color: #56bc94;
+    background-image:url('pattern-1.png');
+    float:left;
+    width: 100%;
+    margin:0px;
+    color: white;
+    .promo-strong{
+        padding: 15px;
+        font-size: 30px;
+        margin-bottom: 35px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    }
+    ul.sec1-ul {
+        display: inline;
+        li{
+            margin: 15px;
+        font-weight: 300;
+        padding-left: 30px;
+        background: url(../images/bullet.png) no-repeat left center;
+        list-style-image: url('bullet.png');    }
+    }
+    
+    img.iphone-secton1 {
+        float: right;
+        margin-right: 150px;
+            margin-bottom: 100px;
+
+    }
+    .iphone-button{
+        background-image:url('available-appstore.png');
+        margin: 15px;
+    }
+    .android-button{
+        background-image: url('google-play.png')
+    }}
