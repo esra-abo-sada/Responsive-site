@@ -1,5 +1,9 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Lato', arial, sans-serif;
+  color: #444444;
+  font-size: 14px;
+  line-height: 1.42857143; }
 
 .row {
   content: "";
@@ -133,7 +137,8 @@ body {
   font-family: 'Lato', arial, sans-serif; }
 
 [class*="col-"] {
-  padding: 100px; }
+  padding: 100px;
+  text-align: center; }
 
 .section-1 {
   background-color: #56bc94;
@@ -142,8 +147,6 @@ body {
   width: 100%;
   margin: 0px;
   color: white; }
-  .section-1 .text.col-m-12.col-8 {
-    display: inline; }
   .section-1 .promo-strong {
     padding: 15px;
     font-size: 30px;
@@ -161,10 +164,15 @@ body {
     float: right;
     margin-right: 150px;
     margin-bottom: 100px; }
-  .section-1 .iphone-button {
-    background-image: url("available-appstore.png");
-    margin: 15px; }
-  .section-1 .android-button {
-    background-image: url("google-play.png"); }
+
+.features-section2 .h3style {
+  color: #56bc94; }
+.features-section2 .a-feature {
+  color: #56bc94; }
+.features-section2 .feature-button {
+  color: #56bc94;
+  margin: 6px 12px;
+  background-color: white;
+  border: none; }
 
 /*# sourceMappingURL=styles.css.map */
