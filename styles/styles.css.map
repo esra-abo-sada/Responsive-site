@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACV,gBAAgB,EAAE,OAAO",
+"sources": ["promo.scss"],
+"names": [],
+"file": "styles.css"
+}
